@@ -1,0 +1,225 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio v5.0.8 (https://startbootstrap.com/themes/stylish-portfolio)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    font-family: 'Source Sans Pro'
+}
+
+.btn-xl {
+    padding: 1.25rem 2.5rem
+}
+
+.content-section {
+    padding-top: 3rem;
+    padding-bottom: 7.5rem
+}
+
+.content-section-heading h2 {
+    font-size: 3rem
+}
+
+.content-section-heading h3 {
+    font-size: 1rem;
+    text-transform: uppercase
+}
+
+.routine {
+    font-family: 'Patua One', cursive;
+}
+
+.info {
+    font-family: 'Patua One', cursive;
+    color: #f7d2d2;
+}
+
+.routine,
+.card {
+    font-family: 'Patua One', cursive;
+    color: rgb(253, 247, 247);
+}
+
+.dept {
+    font-family: 'Teko', sans-serif;
+}
+
+.scroll-to-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background: rgba(52, 58, 64, .5);
+    line-height: 45px
+}
+
+.masthead {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/bg-masthead.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.card {
+    color: #241d1e;
+}
+
+.card1 {
+    background-color: rgb(228, 231, 189);
+}
+
+.card2 {
+    background-color: rgb(228, 231, 189);
+}
+
+.card3 {
+    background-color: rgb(243, 233, 224);
+}
+
+.card4 {
+    background-color: rgb(243, 233, 224);
+}
+
+.card-body button {
+    margin: 5px 5px;
+}
+
+.masthead h1 {
+    font-family: 'Lobster', cursive;
+}
+
+@media (min-width:992px) {
+    .masthead {
+        height: 100vh
+    }
+    .masthead h1 {
+        font-size: 5.5rem
+    }
+}
+
+.card-header {
+    font-size: 25px;
+}
+
+table {
+    background-color: #c2cad0;
+}
+
+table th {
+    text-align: center;
+    vertical-align: middle !important;
+    background-color: #929799;
+}
+
+table td {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+table a:visited {
+    color: rgb(24, 10, 10);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+table a:hover {
+    color: rgb(83, 14, 10);
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table a:active {
+    color: rgb(241, 241, 236);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+footer.footer {
+    padding-top: 3rem;
+    padding-bottom: 2rem
+}
+
+footer.footer .social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #1d809f;
+    transition: background-color .10s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(20, 20, 20, 0.1)
+}
+
+footer.footer .fb:hover {
+    background-color: #3b5998;
+    text-decoration: none
+}
+
+footer.footer .linkedin:hover {
+    background-color: #0e76a8;
+    text-decoration: none
+}
+
+footer.footer .git:hover {
+    background-color: #211F1F;
+    text-decoration: none
+}
+
+a {
+    color: #1d809f
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: #155d74
+}
+
+.btn-primary {
+    background-color: #1d809f !important;
+    border-color: #1d809f !important;
+    color: #fff !important
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #155d74 !important;
+    border-color: #155d74 !important
+}
+
+.btn {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+    font-weight: 700
+}
+
+.bg-primary {
+    background-color: #1d809f !important
+}
+
+.text-primary {
+    color: #1d809f !important
+}
+
+.text-secondary {
+    color: #ecb807 !important
+}
